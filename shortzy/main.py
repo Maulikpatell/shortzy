@@ -14,7 +14,7 @@ class Shortzy:
     :type base_site: str (optional)
     """
 
-    def __init__(self, api_key:str, base_site:str='droplink.co'):
+    def __init__(self, api_key:str, base_site:str='atglinks.com'):
         self.__api_key = api_key
         self.__base_site = base_site
         self.__api_par = "api"
